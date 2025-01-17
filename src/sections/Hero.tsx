@@ -4,7 +4,7 @@ import designExample1Iamge from "../assets/images/design-example-1.png";
 import designExample2Iamge from "../assets/images/design-example-2.png";
 import { Pointer } from "../components/Pointer";
 import { motion, useAnimate } from "motion/react";
-import cursoYouImage from "../assets/images/cursor-you.svg";
+
 
 const Hero = () => {
   const [leftDesignScope, leftDesignAnimate] = useAnimate();
